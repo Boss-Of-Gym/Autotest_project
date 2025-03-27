@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 import math
+import pyperclip
 
 def calc(x):
   return str(math.log(abs(12*math.sin(int(x)))))
@@ -24,6 +25,11 @@ try:
 
     button_math = browser.find_element(By.CSS_SELECTOR, 'button.btn')
     button_math.click()
+
+    alert = browser.switch_to.alert
+    alert_text = alert.text
+    addToClipBoard = alert_text.split(': ')[-1]
+    pyperclip.copy(addToClipBoard)
 
 finally:
     time.sleep(20)
