@@ -12,7 +12,7 @@
   <a href="https://www.selenium.dev/">
     <img src="https://img.shields.io/badge/Selenium-4.0+-green.svg" alt="Selenium 4.0+">
   </a>
-  <a href="https://github.com/Boss-Of-Gym/Stepik_autotest_project.git">
+  <a href="https://github.com/Boss-Of-Gym/Autotest_project.git">
     <img src="https://img.shields.io/github/stars/your_username/MyTestFramework?style=social" alt="GitHub Boss of gym">
   </a>
 </div>
@@ -45,7 +45,7 @@
 Настройте проект за несколько простых шагов:
 
 1. **Склонируйте репозиторий** 📥:
-		git clone https://github.com/Boss-Of-Gym/Stepik_autotest_project.git
+		git clone https://github.com/Boss-Of-Gym/Autotest_project.git
 2. **Перейдите в папку проекта** 📂:
 		cd MyTestFramework
 3. **Создайте виртуальное окружение (рекомендуется)** 🐍:
